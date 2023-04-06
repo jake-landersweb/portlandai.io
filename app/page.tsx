@@ -12,7 +12,7 @@ export default function Home() {
           Portland AI
         </h1>
         <p className='text-gray-500'>The premiere consulting agency for Artificial Intelligence, coming soon.</p>
-        <a href="https://mygpt.portlandai.io" target="_blank" rel="noopener noreferrer" className='bg-main px-4 p-2 rounded-md md:hover:opacity-50 text-white mt-4 md:hover:cursor-pointer'>Try out MyGPT &rarr;</a>
+        <a href="https://mygpt.portlandai.io" target="_blank" rel="noopener noreferrer" className='bg-main px-4 p-2 rounded-md md:hover:opacity-50 text-white mt-4 md:hover:cursor-pointer'>Try out SyncAI &rarr;</a>
       </div>
     </div>
   )
