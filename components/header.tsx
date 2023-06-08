@@ -54,11 +54,11 @@ export default function Header() {
             </div>
             <div className="hidden md:block">
                 <Link href={"/contact"}>
-                    <p className="px-6 py-2 border border-txt hover:border-main-950 hover:bg-gradient-to-r from-acc1 to-acc3 rounded-md">Login</p>
+                    <p className="px-6 py-2 border text-lt border-lt hover:border-main-950 hover:bg-gradient-to-r from-acc1 to-acc3 rounded-md">Login</p>
                 </Link>
             </div>
             {isOpen ? (
-                <button onClick={handleClick} className={`md:hidden text-txt-400 w-10 h-10 focus:outline-none fixed right-4 top-[14px] z-50`}>
+                <button onClick={handleClick} className={`md:hidden text-lt-400 w-10 h-10 focus:outline-none fixed right-4 top-[16px] z-50`}>
                     <span className="sr-only">Open main menu</span>
                     <div
                         className="block w-5 absolute left-1/2 top-1/2   transform  -translate-x-1/2 -translate-y-1/2">
@@ -70,7 +70,7 @@ export default function Header() {
                     </div>
                 </button>
             ) : (
-                <button onClick={handleClick} className={`md:hidden text-txt-400 w-10 h-10 relative focus:outline-none z-50`}>
+                <button onClick={handleClick} className={`md:hidden text-lt-400 w-10 h-10 relative focus:outline-none z-50`}>
                     <span className="sr-only">Open main menu</span>
                     <div
                         className="block w-5 absolute left-1/2 top-1/2   transform  -translate-x-1/2 -translate-y-1/2">
@@ -83,7 +83,7 @@ export default function Header() {
                 </button>
             )}
             <div
-                className={`top-0 right-0 w-[75vw] sm:w-[50vw] py-[75px] pb-4 space-y-2 px-4 bg-bg fixed h-screen z-40 ease-in-out duration-300 border-l border-bg-400 overflow-auto ${isOpen ? "translate-x-0 " : "translate-x-full"}`}
+                className={`top-0 right-0 w-[75vw] sm:w-[50vw] py-[75px] pb-4 space-y-2 px-4 bg-dk-700 fixed h-screen z-40 ease-in-out duration-300 border-l border-dk-400 overflow-auto ${isOpen ? "translate-x-0 " : "translate-x-full"}`}
             > </div>
         </div>
     </div>

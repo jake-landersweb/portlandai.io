@@ -5,6 +5,17 @@ import Head from 'next/head';
 import { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { NextUIProvider, createTheme } from '@nextui-org/react'
+
+const theme = createTheme({
+    type: "light", // it could be "light" or "dark"
+    theme: {
+        colors: {
+            primary: '#3C63EC',
+            secondary: '#A47DE2',
+        },
+    }
+})
 
 function MyApp({ Component, pageProps }: AppProps) {
     useEffect(() => {
@@ -33,7 +44,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         <div className="scroll-smooth">
             <main>
                 <div className="">
-                    <Component {...pageProps} />
+                    <NextUIProvider theme={theme}>
+                        <Component {...pageProps} />
+                    </NextUIProvider>
                 </div>
             </main>
             <footer>
