@@ -42,7 +42,7 @@ export default function SolutionCell({ props }: { props: SolutionCellProps }) {
                     <a className="w-fit" href={props.link} target="_blank" rel="noopener noreferrer"><p className="underline hover:text-acc transition-colors">{props.linkTitle} &rarr;</p></a>
                 </div>
             </div>
-            <div data-aos="fade-left" className="grid place-items-center">
+            <div data-aos="fade-up" className="grid place-items-center">
                 <img src={props.src} alt={props.alt} />
             </div>
         </div>

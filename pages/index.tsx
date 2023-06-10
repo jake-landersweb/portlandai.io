@@ -41,9 +41,9 @@ const Home = () => {
                             <h1 className='text-5xl md:text-7xl font-bold text-center max-w-3xl mx-auto'>Unleashing the Power of AI for Your Business</h1>
                             <p className='text-xl md:text-2xl text-center max-w-3xl mx-auto'>Practical, Pioneering AI Solutions, Merging Interdisciplinary Expertise for Niche Industry Success, Crafted in the Pacific Northwest</p>
                             <div className="grid place-items-center">
-                                <Link href={"/contact"}>
+                                <a href={"/#offerings"}>
                                     <p className="px-6 py-4 border border-txt hover:border-main-950 hover:bg-gradient-to-r from-main to-acc rounded-md font-medium tracking-wider">LEARN HOW WE CAN HELP</p>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </SafeArea>
