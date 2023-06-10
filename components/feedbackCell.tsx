@@ -13,7 +13,7 @@ export default function FeedbackCell({ props }: { props: FeedbackCellProps }) {
         }
         return items
     }
-    return <div className="space-y-8">
+    return <div className="space-y-8 overflow-x-hidden">
         <div data-aos="fade-left" className="flex space-x-2">
             {stars()}
         </div>

@@ -91,7 +91,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="bg-lt-100 px-4 text-dk py-8 md:py-16">
-                        <div className="max-w-2xl mx-auto ">
+                        <div className="max-w-2xl mx-auto">
                             <FeedbackCell props={{
                                 author: 'Michelle Labrosse - Cheetah Learning',
                                 feedback: 'Kevin has been the primary programmer for our business for the past 15 years. We‘ve gone through numerous technology changes in that time and Kevin has kept up with it all making sure our business is best leveraging the available technology to keep our highly automated business running smoothly. Besides being an astute business man who often leads the changes we need to make to stay viable, he is also very responsive to make the changes we request as well.'
