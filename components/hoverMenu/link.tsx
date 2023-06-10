@@ -12,7 +12,7 @@ const Link = ({ props }: { props: LinkProps }) => {
     if (isExternal) {
         return <a href={href} target="_blank" rel="noopener noreferrer" className={className}>{child}</a>
     } else {
-        return <NextLink href={href}><div className={className}>{child}</div></NextLink>
+        return <a href={href}><div className={className}>{child}</div></a>
     }
 }
 

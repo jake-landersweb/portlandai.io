@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-type HoverMenuItemProps = {
+export type HoverMenuItemProps = {
     title: string
     desc: string
     href: string
@@ -12,7 +12,7 @@ const HoverMenuItem = ({ props }: { props: HoverMenuItemProps }) => {
 
     const content = () => {
         return <div className="md:hover:bg-dk-700 py-2 px-4 cursor-pointer rounded-md">
-            <p className="font-medium">{title}</p>
+            <p className="text-lt font-medium">{title}</p>
             <p className="text-gray-400 font-light">{desc}</p>
         </div>
     }
@@ -27,9 +27,9 @@ const HoverMenuItem = ({ props }: { props: HoverMenuItemProps }) => {
         </>
     } else {
         return <>
-            <Link href={href}>
+            <a href={href}>
                 {content()}
-            </Link>
+            </a>
         </>
     }
 }

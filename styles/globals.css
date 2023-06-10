@@ -16,6 +16,13 @@
   }
 }
 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+
 .overlap {
   position: relative;
   top: 250px;

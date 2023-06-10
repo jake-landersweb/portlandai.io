@@ -33,17 +33,17 @@ export default function SolutionCell({ props }: { props: SolutionCellProps }) {
         <h3 className="text-3xl md:text-4xl">{props.title}</h3>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-16">
             <div className="space-y-4">
-                <Collapse.Group bordered>
+                <Collapse.Group className="bg-lt-100" bordered>
                     <Collapse title={props.items[0].title} expanded>
                         {props.items[0].content}
                     </Collapse>
                     {accordion()}
                 </Collapse.Group>
                 <div className="">
-                    <a className="w-fit" href={props.link} target="_blank" rel="noopener noreferrer"><p className="underline hover:text-acc1 transition-colors">{props.linkTitle} &rarr;</p></a>
+                    <a className="w-fit" href={props.link} target="_blank" rel="noopener noreferrer"><p className="underline hover:text-acc transition-colors">{props.linkTitle} &rarr;</p></a>
                 </div>
             </div>
-            <div className="grid place-items-center">
+            <div data-aos="fade-left" className="grid place-items-center">
                 <img src={props.src} alt={props.alt} />
             </div>
         </div>

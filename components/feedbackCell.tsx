@@ -17,7 +17,7 @@ export default function FeedbackCell({ props }: { props: FeedbackCellProps }) {
         <div data-aos="fade-left" className="flex space-x-2">
             {stars()}
         </div>
-        <p data-aos="fade-left" data-aos-delay="100" className='text-lg text-light'>"{props.feedback}"</p>
+        <p data-aos="fade-left" data-aos-delay="100" className='text-lg text-light'>&quot;{props.feedback}&quot;</p>
         <p data-aos="fade-left" data-aos-delay="200" className='font-bold'>{props.author}</p>
     </div>
 }
