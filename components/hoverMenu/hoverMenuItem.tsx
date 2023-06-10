@@ -1,5 +1,3 @@
-import Link from "next/link"
-
 export type HoverMenuItemProps = {
     title: string
     desc: string

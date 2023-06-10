@@ -1,6 +1,5 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import Header from '../components/header'
 import Head from 'next/head';
 import { useEffect } from 'react';
 import AOS from "aos";
@@ -29,7 +28,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
     return <>
         <Head>
-            {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-2QC05WSRCX"></script>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-L13K300MPS"></script>
             <script
                 dangerouslySetInnerHTML={{
                     __html: `
@@ -37,10 +36,10 @@ function MyApp({ Component, pageProps }: AppProps) {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
 
-              gtag('config', 'G-2QC05WSRCX');
+              gtag('config', 'G-L13K300MPS');
             `,
                 }}
-            /> */}
+            />
         </Head>
         <main className="">
             <div className="">

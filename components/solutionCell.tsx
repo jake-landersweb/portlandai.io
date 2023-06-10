@@ -1,5 +1,4 @@
-import Image from "./image"
-import { Collapse, Grid } from '@nextui-org/react';
+import { Collapse } from '@nextui-org/react';
 
 export type SolutionCellProps = {
     title: string

@@ -1,5 +1,3 @@
-import NextLink from 'next/link'
-
 type LinkProps = {
     href: string
     child: JSX.Element

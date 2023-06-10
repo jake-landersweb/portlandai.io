@@ -1,4 +1,4 @@
-import { Button, Input, Loading, createTheme } from "@nextui-org/react";
+import { Input, Loading, createTheme } from "@nextui-org/react";
 import { useState } from "react";
 
 export default function Form() {

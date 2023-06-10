@@ -9,7 +9,7 @@ import Image from 'next/image';
 import FeedbackCell from '@/components/feedbackCell';
 import SolutionCell from '@/components/solutionCell';
 import Form from '@/components/form';
-import { Collapse, NextUIProvider, createTheme } from '@nextui-org/react';
+import { Collapse, createTheme } from '@nextui-org/react';
 import SafeArea from '@/components/safeArea';
 import { FaRegCompass } from 'react-icons/fa'
 
