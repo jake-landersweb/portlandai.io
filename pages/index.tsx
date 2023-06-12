@@ -56,7 +56,7 @@ const Home = () => {
                                         icon: <LuLightbulb size={50} />,
                                         title: 'Innovations',
                                         description: 'Portland AI goes beyond traditional consulting services, offering a suite of innovative products and services designed to empower businesses in unique and impactful ways. Our goal is to help you unlock the full potential of AI, whether that means creating efficient workflows, driving customer engagement, or leveraging data for actionable insights.',
-                                        href: '#consulting'
+                                        href: '#consulting-services'
                                     }} />
                                     <ServiceCell props={{
                                         icon: <MdOutlineArticle size={50} />,
