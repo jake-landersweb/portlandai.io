@@ -195,7 +195,7 @@ const Home = () => {
                                                 </ul>
                                             }
                                         ],
-                                        src: '/autoblog.svg',
+                                        src: '/autoblog.png',
                                         alt: 'Autoblog operation flowchat',
                                         linkTitle: 'Check out our live demo',
                                         link: 'https://blog.portlandai.io'
